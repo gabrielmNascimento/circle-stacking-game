@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+canvas {
+    border: 5px solid #ff6f61;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 111, 97, 0.7);
+}
+.controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    background-color: #ff4a3d;
+    transform: translateY(-2px);
+}
+button:active {
+    transform: translateY(0);
+}
+.robot {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background: url('https://www.flaticon.com/svg/static/icons/svg/3135/3135715.svg') no-repeat center center;
+    background-size: contain;
+    transition: transform 0.5s ease;
+}
+
+#downloadButton {
+    margin-top: 10px;
+}

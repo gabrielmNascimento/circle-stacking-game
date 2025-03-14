@@ -1,0 +1,22 @@
+My asumptions:
+
+    - The game is a puzzle where the player must rearrange colored circles on a grid to achieve a specific configuration (red circles on the top row, blue in the middle, and green on the bottom row).
+
+    - The player interacts with the game using buttons (up, down, left, right) to move a selected circle and by clicking on the canvas to select a circle, acting like the robot mentioned in the challenge.
+
+    - The game provides visual feedback by highlighting the selected circle and animating the robot when a move is made, guaranting a user friendly interface.
+    
+ Decisions:
+ 
+    - I didn't have much time to complete the challege, so I did a HTML structure that is simple, semantic and scalable, with a clear separation of content. Is easy to add more features and even adapt to other languages and technologies.
+     
+    - The use of flexbox in CSS ensures that the game interface is centered and responsive to different screen sizes.
+
+    - The Orbitron font and gradient background were chosen to give the game a modern, futuristic aesthetic, mostly because the robot theme mentioned in the challenge, I would like to add a robot animation in the grid, but didn't have much time for it.
+    
+    - The code is modular, with separate functions for drawing the grid, handling moves, and checking the game state. This makes it easier to extend or modify the game in the future.
+    
+    - The design prioritizes simplicity and ease of use.
+    
+    - The modular code structure and clear separation of concerns make it easy to add new features, such as a timer...
+    
